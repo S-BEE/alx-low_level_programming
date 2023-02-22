@@ -1,6 +1,6 @@
 #include <stdio.h>
 /*
- * main - entry point
+ * main - Entry point
  * Description: Print all the letters except q and e
  * Return: 0 always
  */
