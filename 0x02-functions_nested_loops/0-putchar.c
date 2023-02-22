@@ -1,12 +1,20 @@
-#include <unistd.h>
 #include "main.h"
 /**
- * _putchar - Entry point
- * description: prints putchar
- * Return : On success, the number of bytes written is returned.  
- * On error, -1 is returned, and errno is set to indicate the cause of the error.
+ * main - Entry point
+ * Description: prints '_putchar \n'
+ * Return: Always 0 (success)
  */
-int _putchar(char c)
+int main(void)
 {
-	return (write(1, &c, -1));
+char str[] = "_putchar\n";
+int i = 0;
+
+while (str[i] != '\0')
+	{
+	char c = str[i];
+
+	_putchar(c);
+	i++;
+	}
+return (0);
 }
