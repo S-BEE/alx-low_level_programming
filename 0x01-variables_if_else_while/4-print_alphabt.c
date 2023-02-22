@@ -1,8 +1,8 @@
 #include <stdio.h>
 /*
  * main - entry point
- * description: Print all the letters except q and e
- * return : 0 always
+ * Description: Print all the letters except q and e
+ * Return: 0 always
  */
 int main(void)
 {
